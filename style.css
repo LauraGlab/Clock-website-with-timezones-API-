@@ -13,7 +13,7 @@
 html {
   height: 100%;
   width: 100%;
-  width: 1440px;
+  min-width: 325px;
   overflow: hidden;
 }
 body {
@@ -75,16 +75,16 @@ cite{
   margin-bottom: 0;
 }
 .sun{
-  background-image: url(../starter-code/assets/desktop/icon-sun.svg);
+  background-image: url(../assets/desktop/icon-sun.svg);
 }
 .moon{
-  background-image: url(../starter-code/assets/desktop/icon-moon.svg);
+  background-image: url(../assets/desktop/icon-moon.svg);
 }
 .day{
-  background-image: url(../starter-code/assets/mobile/bg-image-daytime.jpg);   
+  background-image: url(../assets/mobile/bg-image-daytime.jpg);   
 }
 .night{
-  background-image: url(../starter-code/assets/mobile/bg-image-nighttime.jpg);
+  background-image: url(../assets/mobile/bg-image-nighttime.jpg);
 }
 .end-of-sentence{
   display: none;
@@ -200,10 +200,10 @@ li{
 
 @media (min-width: 600px){
 .day{
-  background-image: url(../starter-code/assets/tablet/bg-image-daytime.jpg);   
+  background-image: url(../assets/tablet/bg-image-daytime.jpg);   
 }
 .night{
-  background-image: url(../starter-code/assets/tablet/bg-image-nighttime.jpg);
+  background-image: url(../assets/tablet/bg-image-nighttime.jpg);
 }
 .quote-container {
   padding: 35px 25px;
@@ -246,10 +246,10 @@ ul{
 
 @media (min-width: 900px){
 .day{
-  background-image: url(../starter-code/assets/desktop/bg-image-daytime.jpg);   
+  background-image: url(../assets/desktop/bg-image-daytime.jpg);   
 }
 .night{
-  background-image: url(../starter-code/assets/desktop/bg-image-nighttime.jpg);
+  background-image: url(../assets/desktop/bg-image-nighttime.jpg);
 }
 .quote-container{
   padding: 50px 120px;
